@@ -5,7 +5,7 @@ for (let i = 0; i < lengthArr; i++){
     arr.push(parseInt(prompt(`Input ${i + 1} element array`)))
 }
 
-document.write('Array: [' + arr.join(', ') + ']')
+document.write('Array: [' + arr.join(', ') + ']; ')
 
 arr.splice(1, 3)
 
